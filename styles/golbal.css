@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+#root {
+    display: flex;
+    justify-content: center;
+}
+#TODO {
+    display: block;
+    width: 50%;
+    height: max-content;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+form {
+    margin: 20px;
+    display:flexbox;
+    flex-direction: column;
+
+}
+form input {
+    margin: 10px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid deepskyblue;
+    color: deepskyblue;
+}
+form input[type=text]:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid green;
+    color: deepskyblue;
+}
+form button {
+    width: 30px;
+    height: 30px;
+    background-color: deepskyblue;
+    border: 0px;
+    padding: 0px;
+    border-radius: 3px;
+}
+form button:hover {
+    background-color: green;
+}
+li {
+    list-style-type: none;
+    border-bottom: 2px solid deepskyblue;
+    margin: 5px;
+    color: deepskyblue;
+    padding: 5px;
+}
+#DONE {
+    display:none;
+    width: 50%;
+    height: max-content;
+    padding: 10%;
+    text-align: center;
+
+}
+#EDIT {
+    display:none;
+}
+#todo {
+    margin: 20px;
+}
+#todo button {
+    margin: 5px;
+    width: 100px;
+    background-color: deepskyblue;
+    border: 0px;
+    padding: 5px;
+    border-radius: 3px  
+}
+.buttons {
+    display: block;
+}
+.buttons button {
+    margin: 0  10px;
+    width: 100px;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: deepskyblue;
+}
+button {
+    color: white;
+}
+
+.shadowing {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

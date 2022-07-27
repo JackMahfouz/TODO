@@ -1,0 +1,52 @@
+<!-- 
+    created by Jack M. Isaac a AI engineer also react.js developer so you might find things that looks samilar to react
+    mail : jackmahfouz766@gmail.com
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/golbal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <div id="TODO" class="shadowing">
+            <h1>TODO</h1>
+            <form>
+                <input type="text" id="inp" class="inputbox">
+                <button class="add" id="add2TODO">+</button> 
+            </form>
+            <div class="contaoiner">
+                <ul id="list">
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="DONE" class="shadowing">
+            <h1 class="title">DONE</h1>
+            <div class="container">
+                 <ul id="DONELIST">
+
+                </ul>
+            </div>
+        </div>
+        <div id="EDIT" class="shadowing">
+            <form>
+                <input type="text" id="EditInput" class="inputbox">
+                <button class="add" id="saveChages">save</button> 
+            </form>
+        </div>
+    </div>  
+    <div class="holder">
+    <div class="buttons"> 
+        <button id="todobtn">TODO</button>
+        <button id="donebtn">DONE</button>
+    </div>
+ </div>
+    <script src="scripts/change.js"></script>
+    <script src="scripts/global.js"></script>
+</body>
+</html>
